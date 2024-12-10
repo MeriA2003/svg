@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bigdiv {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  #svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .button {
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  .button1 {
+    background-color: #28a745;
+  }
+  
+  .button2 {
+    background-color: #ffc107;
+  }
+  
+
+
+
